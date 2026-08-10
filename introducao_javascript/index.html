@@ -14,9 +14,18 @@
     window.confirm('vamos começar a aprender sobre variaveis?')
 
     const nome = window.prompt("Qual seu nome?")
-    document.write('Olá' + nome + "! Vamos Aprender sobre variaveis")
+
+    //document.write('Olá' + nome + "! Vamos Aprender sobre variaveis")
+    document.write(`ola ${nome} vamos começar <br>`)
+
     let idade = window.prompt('qual sua idade <br>')
-    document.write('atualmente sua idade é '+ idade + 'anos!' )
-</script>
+    //document.write('atualmente sua idade é '+ idade + 'anos!' )
+    document.write(`atualmente sua idade é ${idade} anos! <br>`)
+
+    const n1 = window.prompt('digite um numero')
+    const n2 = window.prompt('digite outro numero')
+    const resultado = n1 + n2
+    document.write(`o resultado da soma de ${n1} e ${n2} é igual a ${resultado} <br>`)
+    </script>
 
 </html>
